@@ -7,6 +7,6 @@ function getRandomColor() {
     return color;
   }
 
-  document.getElementById("Color-box").addEventListener("click", function(){
+  document.getElementById("change-color-btn").addEventListener("click", function(){
     document.getElementById("Color-box").style.backgroundColor = getRandomColor();
   })
